@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Background -->
+    <item>
+        <shape>
+            <gradient
+                android:startColor="@color/bg_login_screen_start"
+                android:endColor="@color/bg_login_screen_end"
+                android:gradientRadius="650"
+                android:type="radial" />
+        </shape>
+    </item>
+</layer-list><!-- From: file:/D:/Dropbox/ProjetosAndroid/SIM2PeD/sIM2PeD/src/main/res/drawable/bg_login_screen.xml -->

@@ -1,0 +1,28 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    defaultConfig {
+        applicationId 'br.uern.ges.med.sim2ped'
+        minSdkVersion 10
+        targetSdkVersion 19
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+    buildToolsVersion '19.1.0'
+}
+
+dependencies {
+    compile project(':staggeredGridViewmaster')
+    compile 'com.android.support:appcompat-v7:19.+'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.google.android.gms:play-services:+'
+    compile files('libs/android-async-http-1.4.5.jar')
+    compile 'com.android.support:support-v4:19.+'
+}

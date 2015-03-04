@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<!-- Bottom 1dp Shadow -->
+    <item>
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/border_bottom_box" />
+            <corners android:bottomLeftRadius="5px" android:bottomRightRadius="5px" ></corners>
+        </shape>
+    </item>
+    
+   <!-- Bottom 5dp Green -->
+   <item android:bottom="@dimen/border_bottom_layout_tips"> 
+   		<shape android:shape="rectangle">
+   			<solid android:color="@color/bg_tips_red" />
+   			<corners android:bottomLeftRadius="5px" android:bottomRightRadius="5px" ></corners>
+   		</shape>
+	</item> 
+    
+    <!-- White Top color -->
+    <item android:bottom="@dimen/border_bottom_text_tips_details">
+        <shape android:shape="rectangle" >
+            <solid android:color="@color/white" />
+            <corners android:topLeftRadius="3px" android:topRightRadius="3px"></corners>
+        </shape>
+    </item>  
+</layer-list><!-- From: file:/D:/Dropbox/ProjetosAndroid/SIM2PeD/sIM2PeD/src/main/res/drawable/bg_tips_details_red.xml -->

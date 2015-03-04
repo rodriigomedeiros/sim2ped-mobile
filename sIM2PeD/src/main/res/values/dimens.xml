@@ -1,0 +1,19 @@
+<resources>
+
+    <dimen name="margin_layout_tips">7dp</dimen>
+    <dimen name="border_top_layout_tips">4dp</dimen>
+    <dimen name="border_bottom_layout_tips">1dp</dimen>
+    <dimen name="border_bottom_buttons">2dp</dimen>
+    <dimen name="border_bottom_text_tips_details">7dp</dimen>
+    <dimen name="border_bottom_box">1dp</dimen>
+	<dimen name="margin_text_tips">5dp</dimen>
+	<dimen name="navigation_layout_width">260dp</dimen>
+	
+	
+
+	<item name="padding_text_tips_inline_top" format="integer" type="dimen">0</item>
+	<item name="padding_text_tips_inline_bottom" format="integer" type="dimen">3</item>
+	<item name="padding_text_tips_inline_left" format="integer" type="dimen">22</item>
+	<item name="padding_text_tips_inline_right" format="integer" type="dimen">0</item>
+
+</resources>

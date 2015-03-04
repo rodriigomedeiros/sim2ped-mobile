@@ -1,0 +1,134 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 
+    <style name="AppBaseTheme" parent="Theme.AppCompat">
+    	<item name="actionBarStyle">@style/ActionBar</item>
+    </style>
+    
+	<style name="ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:textColor">@color/text_action_bar</item>
+        <item name="homeAsUpIndicator">@drawable/arrow_up_white</item>
+    </style>
+    
+    -->
+    
+    <style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="homeAsUpIndicator">@drawable/arrow_up_white</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="background">@color/bg_actionbar</item>
+        <item name="backgroundStacked">@color/bg_actionbar</item>
+        <item name="backgroundSplit">@color/bg_actionbar</item>
+		<item name="titleTextStyle">@style/ActionbarTitleStyle</item>
+    </style>
+    
+    <!-- ActionBar Title Text -->
+	<style name="ActionbarTitleStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+    	<item name="android:textColor">@color/white</item>
+	</style>
+    
+	<style name="TextTip">
+		<item name="android:typeface">monospace</item>
+        <item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/margin_text_tips</item>
+    </style>
+    
+	<style name="TextTipInline">
+		<item name="android:typeface">sans</item>
+        <item name="android:layout_width">match_parent</item>
+		<item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/margin_text_tips</item>
+        <item name="android:paddingLeft">20sp</item>
+    </style>
+
+	<style name="TextTipDetails" parent="@android:style/TextAppearance.Medium">
+		<item name="android:typeface">sans</item>
+        <item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">3sp</item>
+        <item name="android:paddingTop">3sp</item>
+        <item name="android:paddingBottom">11sp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextTipDetailsInAlertCaresDetail" parent="@android:style/TextAppearance.Medium">
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">3sp</item>
+        <item name="android:paddingTop">3sp</item>
+        <item name="android:paddingBottom">11sp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="TextAlertCaresDetails" parent="@android:style/TextAppearance.Large">
+        <item name="android:typeface">sans</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingLeft">5sp</item>
+        <item name="android:paddingTop">5sp</item>
+        <item name="android:paddingRight">5sp</item>
+        <item name="android:paddingBottom">15sp</item>
+        <item name="android:textSize">28sp</item>
+    </style>
+	
+	 <style name="CustomActionButton" parent="android:style/Widget.Holo.Light.ActionButton">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:focusable">true</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="ActionButtonBarText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAppearance">?android:attr/actionMenuTextAppearance</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/silver_222</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">none</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="ActionButtonBarImage">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">4dp</item>
+    </style>
+
+    <style name="PrimaryButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LoginButton">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/silver_222</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:background">@drawable/bg_button_login</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ItemForm_Login">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+</resources>

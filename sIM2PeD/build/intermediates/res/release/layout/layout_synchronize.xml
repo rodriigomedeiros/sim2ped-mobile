@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/synchronizeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg_layout_main" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/logop"
+                android:contentDescription="@string/clear"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/fragment_title_send_statistics"
+                android:layout_marginBottom="6dp"
+                android:textAlignment="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/fragment_sub_title_send_statistics"
+                android:layout_marginBottom="10dp"
+                android:textAlignment="center"
+                />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+                <ProgressBar
+                    android:id="@+id/progressBarSync"
+                    style="?android:progressBarStyleLarge"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="1"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:visibility="gone" />
+
+                <TextView
+                    android:id="@+id/textViewTeste"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/clear"
+                    android:textSize="14sp"
+                    android:layout_marginTop="5dp"
+                    />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_sync"
+                android:text="@string/form_button_submit_statistics"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:textSize="14dp"
+                style="@style/PrimaryButton"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout><!-- From: file:/D:/Dropbox/ProjetosAndroid/SIM2PeD/sIM2PeD/src/main/res/layout/layout_synchronize.xml -->

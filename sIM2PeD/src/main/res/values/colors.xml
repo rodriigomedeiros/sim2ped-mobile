@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="bg_actionbar">#26262C</color>
+     color name="bg_actionbar">#C2E040</color -->
+    <color name="bg_button_primary">#428bca</color>
+    <color name="bg_button_primary_translucent">#99428bca</color>
+    <color name="bg_button_login">#ffffff</color>
+    <color name="bg_button_login_pressed">#e5e5e5</color>
+    <!-- color name="bg_actionbar">#408D34</color --> <!-- last used -->
+    <color name="bg_login_screen_start">#298DBE</color>
+    <color name="bg_login_screen_end">#004E99</color>
+    <color name="bg_box_header">#A6D6EC</color>
+    <color name="bg_actionbar">#298DBE</color>
+    <color name="bg_layout_login">#053768</color>
+    <color name="bg_tips_green">#BBE535</color>
+    <color name="bg_tips_orange">#FFBB22</color>
+    <color name="bg_tips_red">#F56545</color>
+    <color name="bg_actionbar_no_action">#DB1313</color>
+    <color name="bg_actionbar_yes_action">#92C400</color>
+    <color name="text_tips_green">#4B5C15</color>
+    <color name="text_tips_orange">#664B0E</color>
+    <color name="text_tips_red">#62281C</color>
+    <color name="text_tips">#505050</color>
+    <color name="silver_1">#606060</color>
+    <color name="border_button_primary">#0B9678</color>
+    <color name="border_top_tips_green">@color/bg_tips_green</color>
+    <color name="border_top_tips_orange">@color/bg_tips_orange</color>
+    <color name="border_top_tips_red">@color/bg_tips_red</color>
+    <color name="border_submenu_nav">#E5E5E5</color>
+    <!--  color name="bg_user_navigation">#161F29</color -->
+    <color name="bg_user_navigation">#F5F5F5</color>
+    <color name="bg_list_navigation">#F5F5F5</color>
+    <color name="text_user_bar">#505050</color>
+
+    
+    <!--  color name="border_top_tips_green">#94BC18</color -->
+    <!--  color name="border_top_tips_orange">#D99800</color -->
+    <!--  color name="border_top_tips_red">#CE2D0B</color -->
+
+    <color name="border_bottom_box">#bbbbbb</color>
+    <color name="bg_layout_main">#E6E6E6</color>
+    <color name="text_action_bar">@color/white</color>
+    <color name="white">#ffffff</color>
+    <color name="light_gray">#efefef</color>
+    <color name="silver_222">#222222</color>
+    
+    
+    <color name="list_background">@color/bg_layout_main</color>
+    <color name="counter_text_bg">@color/list_background</color>
+    <color name="list_item_title">#505050</color>
+    <color name="counter_text_color">@color/list_item_title</color>
+	<color name="navigation_items">#FAFAFA</color>
+	<color name="navitation_items_pressed">#DADADC</color>
+    <color name="transparent">#00000000</color>
+</resources>

@@ -1,0 +1,76 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Framelayout to display Fragments -->
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <!-- Listview to display slider menu -->
+    
+     <LinearLayout
+        android:id="@+id/drawer"
+        android:layout_width="@dimen/navigation_layout_width"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="start" >
+   
+
+		  <RelativeLayout
+                android:id="@+id/userDrawer"
+                android:layout_width="@dimen/navigation_layout_width"
+                android:layout_height="65dp"
+                android:background="@color/bg_user_navigation" >
+
+                <TextView
+                    android:id="@+id/titleDrawer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_toRightOf="@+id/ImgDrawer"
+                    android:text="@string/clear"
+                    android:textColor="@color/text_user_bar"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/subTitleDrawer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/titleDrawer"
+                    android:layout_below="@+id/titleDrawer"
+                    android:text="@string/clear"
+                    android:textColor="@color/text_user_bar"
+                    android:textSize="12sp" />
+                
+                <ImageView
+                    android:id="@+id/ImgDrawer"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:contentDescription="@string/app_name"
+                    android:src="@drawable/ic_user" />
+            </RelativeLayout>
+            
+    	<ListView
+        	android:id="@+id/list_slidermenu"
+        	android:layout_width="wrap_content"
+        	android:layout_height="match_parent"
+        	android:layout_gravity="start"
+        	android:background="@color/bg_list_navigation"
+        	android:cacheColorHint="@color/transparent"
+            android:choiceMode="singleChoice"
+            android:divider="@android:color/transparent"
+        	android:dividerHeight="0dp"     
+        	 />
+    	
+     </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>
+<!-- From: file:/D:/Dropbox/ProjetosAndroid/SIM2PeD/sIM2PeD/src/main/res/layout/layout_main.xml -->

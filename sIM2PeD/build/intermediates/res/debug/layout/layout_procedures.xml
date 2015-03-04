@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    	xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/synchronizeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bg_layout_main" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingBottom="0dp"
+        android:layout_gravity="left|top">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/logop"
+            android:contentDescription="@string/clear"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/fragment_title_procedures"
+            android:layout_marginBottom="6dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/fragment_sub_title_procedures"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="@string/layout_item_procedure_context" />
+
+            <TextView
+                android:id="@+id/text_item_list_procedure_contextName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:text="@string/clear"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="@string/layout_item_procedure_question_hour" />
+
+            <TextView
+                android:id="@+id/text_item_list_procedure_hourQuestion"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="@string/clear"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_procedures_performeds"
+            android:text="@string/view_procedures_performed"
+            android:layout_marginTop="20dp"
+            android:textSize="14dp"
+            style="@style/PrimaryButton"
+            />
+    </LinearLayout>
+
+
+</FrameLayout><!-- From: file:/D:/Dropbox/ProjetosAndroid/SIM2PeD/sIM2PeD/src/main/res/layout/layout_procedures.xml -->

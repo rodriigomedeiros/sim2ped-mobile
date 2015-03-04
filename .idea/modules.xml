@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/SIM2PeD.iml" filepath="$PROJECT_DIR$/SIM2PeD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sIM2PeD/sIM2PeD.iml" filepath="$PROJECT_DIR$/sIM2PeD/sIM2PeD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/staggeredGridViewmaster/staggeredGridViewmaster.iml" filepath="$PROJECT_DIR$/staggeredGridViewmaster/staggeredGridViewmaster.iml" />
+    </modules>
+  </component>
+</project>
+

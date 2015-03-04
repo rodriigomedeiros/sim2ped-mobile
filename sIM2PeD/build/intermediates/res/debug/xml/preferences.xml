@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/pref_layout">
+        <ListPreference
+            android:key="PREF_LAYOUT_TIPS"
+            android:title="@string/pref_layout_screen_title"
+            android:summary="@string/pref_layout_screen_summary"
+            android:entries="@array/listentriesLayoutTips"
+            android:entryValues="@array/listvaluesLayoutTips"
+            android:defaultValue="inline" />
+        <ListPreference
+            android:key="PREF_FONT_SIZE_TIPS"
+            android:title="@string/pref_layout_font_size_title"
+            android:summary="@string/pref_layout_font_size_summary"
+            android:entries="@array/listentriesFontSizeTips"
+            android:entryValues="@array/listvaluesFontSizeTips"
+            android:defaultValue="22" />
+        <ListPreference
+            android:key="PREF_NUMBER_OF_TIPS_DISPLAYED"
+            android:title="@string/pref_layout_number_of_tip_displayed_title"
+            android:summary="@string/pref_layout_number_of_tip_displayed_summary"
+            android:entries="@array/listentriesNumberTipsDisplayed"
+            android:entryValues="@array/listvaluesNumberTipsDisplayed"
+            android:defaultValue="10" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_alarm">
+        <EditTextPreference
+            android:key="PREF_EARLY_MINUTES_FOR_ALARM"
+            android:title="@string/pref_alarm_early_title"
+            android:summary="@string/pref_alarm_early_summary"
+            android:maxLength="2"
+            android:inputType="number"
+            android:defaultValue="5" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_login">
+        <Preference
+            android:title="@string/pref_login_logout_title"
+            android:key="buttonLogout"
+            android:summary="@string/pref_login_logout_summary"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_backup">
+        <Preference
+            android:title="@string/pref_backup_title"
+            android:key="buttonBackup"
+            android:summary="@string/pref_backup_summary"/>
+    </PreferenceCategory>
+</PreferenceScreen><!-- From: file:/D:/Dropbox/ProjetosAndroid/SIM2PeD/sIM2PeD/src/main/res/xml/preferences.xml -->

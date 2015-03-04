@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView"
+    android:background="@drawable/bg_login_screen" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/logo_branco"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:focusable="true"
+            android:focusableInTouchMode="true">
+
+            <EditText
+                android:background="@drawable/bg_edittext_login_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText_user"
+                android:hint="@string/form_edittext_login_user"
+                android:inputType="number"
+                style="@style/ItemForm_Login"
+                 />
+
+            <EditText
+                android:background="@drawable/bg_edittext_login_image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:id="@+id/editText_password"
+                android:layout_marginTop="10dp"
+                android:hint="@string/form_edittext_login_password"
+                style="@style/ItemForm_Login"
+                />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="@string/form_check_login_keep_logged"
+                android:checked="true"
+                style="@style/ItemForm_Login"
+                android:id="@+id/checkKeepLogged" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                >
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true">
+
+
+                <ProgressBar
+                    android:id="@+id/progressBarLogin"
+                    style="?android:progressBarStyleLarge"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:indeterminate="false"
+                    android:max="100"
+                    android:progress="1"
+                    android:layout_marginRight="8sp"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:id="@+id/textView_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:text="@string/clear"
+                    android:layout_marginTop="0dp"
+                    />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_login"
+                android:text="@string/form_button_login_action"
+                android:layout_marginTop="20dp"
+                android:textSize="14dp"
+                style="@style/LoginButton"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

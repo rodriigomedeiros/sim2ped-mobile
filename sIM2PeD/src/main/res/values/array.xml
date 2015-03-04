@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+     <!-- Preferences Arrays -->
+    <string-array name="listentriesLayoutTips">
+        <item>Uma Coluna</item>
+        <item>Várias Colunas - 1</item>
+        <item>Várias Colunas - 2</item>
+    </string-array>
+    
+    <string-array name="listvaluesLayoutTips">
+        <!-- No description --> <item>inline</item>
+        <!-- No description --> <item>grid</item>
+        <!-- No description --> <item>grid2</item>
+    </string-array>
+    
+	<string-array name="listentriesFontSizeTips">
+        <!-- No description --> <item>Pequena</item>
+        <!-- No description --> <item>Média</item>
+        <!-- No description --> <item>Grande</item>
+    </string-array>
+    
+    <string-array name="listvaluesFontSizeTips">
+        <!-- No description --> <item>18</item>
+        <!-- No description --> <item>22</item>
+       <!-- No description -->  <item>26</item>
+    </string-array>
+
+    <string-array name="listentriesNumberTipsDisplayed">
+        <!-- No description --> <item>5</item>
+        <!-- No description --> <item>10</item>
+        <!-- No description --> <item>15</item>
+        <!-- No description --> <item>20</item>
+        <!-- No description --> <item>25</item>
+    </string-array>
+
+    <string-array name="listvaluesNumberTipsDisplayed">
+        <!-- No description --> <item>5</item>
+        <!-- No description --> <item>10</item>
+        <!-- No description --> <item>15</item>
+        <!-- No description --> <item>20</item>
+        <!-- No description --> <item>25</item>
+    </string-array>
+</resources>

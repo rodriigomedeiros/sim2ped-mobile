@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTipDetails"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_layout_main" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:src="@drawable/logop"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:contentDescription="@string/clear" />
+
+		    <LinearLayout
+                android:id="@+id/layoutTipDetailsText"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="10sp"
+                android:layout_marginBottom="5sp" >
+
+                <TextView
+                    android:id="@+id/textTip"
+                    style="@style/TextTipDetails" />
+		    </LinearLayout>
+		    <RelativeLayout
+                android:id="@+id/layout_title_care"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:visibility="gone"
+                >
+
+                <ImageView
+                    android:id="@+id/icon_care"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="@string/clear"
+                    android:src="@drawable/ic_list_care" />
+
+                <TextView
+                    android:id="@+id/title_care"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginStart="35sp"
+                    android:layout_marginLeft="35sp"
+                    android:gravity="center_vertical"
+                    android:text="@string/care_title_tip_details_screen"
+                    android:textColor="@color/silver_1"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+		    </RelativeLayout>
+		    <ListView
+                android:id="@+id/list_cares"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:divider="@android:color/transparent"
+                android:dividerHeight="1dp"
+                android:visibility="gone"
+                android:clickable="false"
+                >
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout><!-- From: file:/D:/Dropbox/ProjetosAndroid/SIM2PeD/sIM2PeD/src/main/res/layout/layout_detail_tip.xml -->

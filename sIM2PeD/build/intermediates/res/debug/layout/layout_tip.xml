@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:staggered="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainLayout"
+    android:background="@color/bg_layout_main">
+    
+    <!--  xmlns:app="http://schemas.android.com/apk/res/br.uern.ges.med.sim2ped"  -->
+    
+<com.origamilabs.library.views.StaggeredGridView
+    android:id="@+id/tipsStaggeredGridView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    staggered:drawSelectorOnTop="false"
+    staggered:numColumns="2"
+    android:layoutAnimation="@anim/anim_layout_tips"
+     >
+</com.origamilabs.library.views.StaggeredGridView>
+
+</LinearLayout><!-- From: file:/D:/Dropbox/ProjetosAndroid/SIM2PeD/sIM2PeD/src/main/res/layout/layout_tip.xml -->

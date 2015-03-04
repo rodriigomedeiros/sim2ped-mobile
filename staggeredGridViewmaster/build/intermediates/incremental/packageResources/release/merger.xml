@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="D:\Dropbox\ProjetosAndroid\SIM2PeD\staggeredGridViewmaster\src\main\res" >
+            <file
+                path="D:\Dropbox\ProjetosAndroid\SIM2PeD\staggeredGridViewmaster\src\main\res\values\attrs.xml"
+                qualifiers="" >
+                <declare-styleable name="StaggeredGridView" >
+                    <attr
+                        name="drawSelectorOnTop"
+                        format="boolean" />
+                    <attr
+                        name="numColumns"
+                        format="integer" />
+                    <attr
+                        name="itemMargin"
+                        format="dimension" />
+                </declare-styleable>
+            </file>
+        </source>
+        <source path="D:\Dropbox\ProjetosAndroid\SIM2PeD\staggeredGridViewmaster\build\generated\res\rs\release" />
+        <source path="D:\Dropbox\ProjetosAndroid\SIM2PeD\staggeredGridViewmaster\build\generated\res\generated\release" />
+    </dataSet>
+    <dataSet config="release" >
+        <source path="D:\Dropbox\ProjetosAndroid\SIM2PeD\staggeredGridViewmaster\src\release\res" />
+    </dataSet>
+
+</merger>

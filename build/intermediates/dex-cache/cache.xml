@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="D:\Dropbox\ProjetosAndroid\SIM2PeD\sIM2PeD\build\intermediates\pre-dexed\debug\gson-2.2.4-708bc7f533424f4bb9af09c948562b8ee72ec892.jar"
+        jar="C:\Users\Rodrigo\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.4\a60a5e993c98c864010053cb901b7eab25306568\gson-2.2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568"/>
+    <item
+        dex="D:\Dropbox\ProjetosAndroid\SIM2PeD\sIM2PeD\build\intermediates\pre-dexed\debug\android-async-http-1.4.5-c510f010b82b750d51f5d08e1311f5f2bfa9e185.jar"
+        jar="D:\Dropbox\ProjetosAndroid\SIM2PeD\sIM2PeD\libs\android-async-http-1.4.5.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="77bf7cacf9cefe19dc105e5425d2eb1bb5285881"/>
+    <item
+        dex="D:\Dropbox\ProjetosAndroid\SIM2PeD\sIM2PeD\build\intermediates\pre-dexed\debug\support-v4-19.1.0-e311e493b238b75da4095bd5ee7b69d76d73dc42.jar"
+        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67"/>
+    <item
+        dex="D:\Dropbox\ProjetosAndroid\SIM2PeD\sIM2PeD\build\intermediates\pre-dexed\debug\classes-0c654096cbb89c7e93805fc14393544d89960402.jar"
+        jar="D:\Dropbox\ProjetosAndroid\SIM2PeD\sIM2PeD\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28"/>
+    <item
+        dex="D:\Dropbox\ProjetosAndroid\SIM2PeD\sIM2PeD\build\intermediates\pre-dexed\debug\classes-54b807b4e8e35142535472fb5b3346f1de4705e7.jar"
+        jar="D:\Dropbox\ProjetosAndroid\SIM2PeD\sIM2PeD\build\intermediates\exploded-aar\com.google.android.gms\play-services\5.0.77\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b6a82434c1eca686607867cd906bcc80ed987837"/>
+    <item
+        dex="D:\Dropbox\ProjetosAndroid\SIM2PeD\sIM2PeD\build\intermediates\pre-dexed\debug\classes-78c3227df5fd34b3744b0c7acf5d07d989eb4b33.jar"
+        jar="D:\Dropbox\ProjetosAndroid\SIM2PeD\sIM2PeD\build\intermediates\exploded-aar\SIM2PeD\staggeredGridViewmaster\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c5085c656b9a0c14b73db17adb076ae679c92e0a"/>
+
+</pre-dex-items>

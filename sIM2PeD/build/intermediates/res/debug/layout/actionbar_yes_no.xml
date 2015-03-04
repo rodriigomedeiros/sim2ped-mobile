@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:dividerPadding="12dp"
+    android:orientation="horizontal"
+    android:showDividers="middle" >
+
+    <LinearLayout
+        android:id="@+id/action_yes"
+        style="@style/CustomActionButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight=".50"
+        android:background="@color/bg_actionbar_yes_action" >
+
+        <ImageView
+            style="@style/ActionButtonBarImage"
+            android:contentDescription="@string/clear"
+            android:src="@drawable/ic_action_bar_happy" />
+
+        <TextView
+            style="@style/ActionButtonBarText"
+            android:text="@string/action_bar_proceeding_yes" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/action_no"
+        style="@style/CustomActionButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight=".50"
+        android:background="@color/bg_actionbar_no_action" >
+
+        <ImageView
+            style="@style/ActionButtonBarImage"
+            android:contentDescription="@string/clear"
+            android:src="@drawable/ic_action_bar_sad" />
+
+        <TextView
+            style="@style/ActionButtonBarText"
+            android:text="@string/action_bar_proceeding_no" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/Dropbox/ProjetosAndroid/SIM2PeD/sIM2PeD/src/main/res/layout/actionbar_yes_no.xml -->

@@ -1,0 +1,40 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+   
+	<style name="AppBaseTheme" parent="@style/Theme.AppCompat">
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+    	<item name="actionBarStyle">@style/ActionBar</item>
+    </style>
+    
+	<style name="ActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="android:textColor">@color/text_action_bar</item>
+        <item name="android:background">@color/bg_actionbar</item>
+        <item name="background">@color/bg_actionbar</item>
+        <item name="homeAsUpIndicator">@drawable/arrow_up_white</item>
+		<item name="android:homeAsUpIndicator">@drawable/arrow_up_white</item>
+    </style>
+    -->
+
+	<style name="AppBaseTheme" parent="@style/Theme.AppCompat.Light">
+        <item name="android:actionBarStyle">@style/Widget.Styled.ActionBar</item>
+        <item name="android:homeAsUpIndicator">@drawable/arrow_up_white</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="android:background">@color/bg_actionbar</item>
+        <item name="android:backgroundStacked">@color/bg_actionbar</item>
+        <item name="android:backgroundSplit">@color/bg_actionbar</item>
+		<item name="android:titleTextStyle">@style/ActionbarTitleStyle</item>
+    </style>
+    
+    <!-- ActionBar Title Text -->
+	<style name="ActionbarTitleStyle" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+    	<item name="android:textColor">@color/white</item>
+	</style>
+	
+	
+</resources>

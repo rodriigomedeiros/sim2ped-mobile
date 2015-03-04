@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_tips_green"
+     >
+
+    <!--  com.example.staggeredgridviewdemo.views.ScaleImageView
+        android:id="@+id/imageView1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:src="@null" /-->
+
+    <TextView
+        android:id="@+id/textTip"
+        style="@style/TextTip"
+        android:background="@android:color/transparent"
+         />
+
+</FrameLayout>
